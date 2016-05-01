@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* 
+* apply a natural box layout model to all elements 
+* http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+/* line 9, scss/main.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, scss/main.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 19, scss/main.scss */
+body {
+  overflow: hidden;
+  height: 100%;
+  
+  background: #000;
+  -ms-touch-action: none;
+  -ms-content-zooming: none;
+  /* Disables zooming */
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 2, scss/sections/_framework.scss */
+#wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
